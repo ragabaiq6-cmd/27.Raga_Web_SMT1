@@ -1,0 +1,100 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 350px; 
+    padding: 20px 15px; 
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 1.1rem;
+    color: #2d3436;
+    margin-bottom: 15px;
+}
+
+.profile-img {
+    width: 80px;  
+    height: 80px; 
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #c72055;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 1.1rem;
+    color: #2d3436;
+    margin: 4px 0;
+}
+
+.bio-class {
+    font-size: 0.85rem; 
+    color: #636e72;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.description {
+    font-size: 0.8rem; 
+    color: #636e72;
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; 
+}
+
+.btn {
+    display: block;
+    background-color:#c72055 ;
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.85rem; 
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    background-color: #c72055;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+button {
+  background-color: #ffffff;
+  color: #333333;
+  font-family: sans-serif;
+  transition: background-color 0.3s, color 0.3s; 
+  border-radius: 100px;
+  z-index: 999;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 8px 16px;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+}
+
+body.dark-mode {
+  background-color: #514c4c;
+  color: #e8b25a;
+}
